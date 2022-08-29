@@ -1908,6 +1908,6 @@ game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Pant
 game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Pants",827832111)
 --
 game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Pants",3576467032)
-    wait(2)
+    wait(3)
 
     game:GetService("ReplicatedStorage").Remotes.MorphEvent:FireServer("Reset")
