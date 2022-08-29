@@ -1,4 +1,4 @@
-while wait() do
+
     game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Hats",4654671821)
     game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Hats",4585193630)
     game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Hats",6778986933)
