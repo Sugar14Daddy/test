@@ -1,5 +1,4 @@
-
-    game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Premium",212358027)
+game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Premium",212358027)
 game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Premium",128159108)
 game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Premium",124730194)
 game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Premium",2316714645)
@@ -1908,6 +1907,6 @@ game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Pant
 game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Pants",827832111)
 --
 game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Pants",3576467032)
-    wait(3)
+    wait(8)
 
     game:GetService("ReplicatedStorage").Remotes.MorphEvent:FireServer("Reset")
