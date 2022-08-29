@@ -1856,4 +1856,3 @@ game:GetService("ReplicatedStorage").Remotes.EquipEvent:FireServer("Equip","Pant
     wait(2)
 
     game:GetService("ReplicatedStorage").Remotes.MorphEvent:FireServer("Reset")
-    end
