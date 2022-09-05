@@ -1,5 +1,11 @@
    game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer("qgear me 17407931")
    game:GetService("ReplicatedStorage").Remotes.BasicEvent:FireServer("Sit")
+   wait(0.4)
+      for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "ToolName" then
+            v.Parent = game.Players.LocalPlayer.Character
+        end
+    end
         wait(0.6)
            for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
         if v.name == "MidasGlove" then
