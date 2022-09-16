@@ -1,3 +1,6 @@
+prefix = game.Players.LocalPlayer.PlayerGui.HDAdminGUIs.MainFrame.Pages.Settings.Custom["AE1 Prefix"].SettingValue.TextBox.Text 
+
+game:GetService("ReplicatedStorage").Remotes.BasicFunction:InvokeServer("RemoveHats")
 game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip","Hats",4622999183)
 game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip","Hats",215719598)
 game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip","Hats",4623085687)
@@ -15,3 +18,7 @@ game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip",
 game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip","Premium",330294650)
 game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip","Premium",192557913)
 game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip","Premium",493489765)
+wait(1)
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(prefix.."char me xx_thebesthab")
+wait(2)
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(prefix.."unchar me")
