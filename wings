@@ -4,7 +4,6 @@ game:GetService("ReplicatedStorage").Remotes.BasicFunction:InvokeServer("RemoveH
 game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip","Hats",4622999183)
 game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip","Hats",215719598)
 game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip","Hats",4623085687)
-game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip","Hats",15967743)
 game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip","Hats",4528717524)
 game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip","Hats",4504392983)
 game:GetService("ReplicatedStorage").Remotes.EquipFunction:InvokeServer("Equip","Hats",4510125612)
